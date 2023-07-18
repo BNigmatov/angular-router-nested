@@ -2,3 +2,7 @@
 a {
   color: rgb(74, 74, 209);
 }
+
+.mat-mdc-tab-group.header-less-tabs > mat-tab-header {
+  display: none;
+}

@@ -22,7 +22,7 @@ import { BbbbListComponent } from './1-list/list.component';
       <div
         class="flex-auto w-full"
         [ngClass]="{
-          'w-full z-20 absolute inset-0 inset-auto flex': isDetailsShowed,
+          'w-full z-20 absolute inset-0 inset-auto -flex': isDetailsShowed,
           'w-1/2 hidden md:flex': !isDetailsShowed
         }"
         style="background-color: red"
