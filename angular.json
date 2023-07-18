@@ -11,6 +11,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "configurations": {
             "development": {
+              "baseHref": "/",
               "buildOptimizer": false,
               "extractLicenses": false,
               "namedChunks": true,
@@ -19,6 +20,7 @@
               "vendorChunk": true
             },
             "production": {
+              "baseHref": "/",
               "aot": true,
               "buildOptimizer": true,
               "extractLicenses": true,
